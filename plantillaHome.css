@@ -1,0 +1,99 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+     background: rgb(243, 243, 243)!important;
+  }
+}
+/* Navbar animation */
+.navbar {
+  background-color: rgba(238, 239, 241, 0.842); 
+  
+}
+
+
+.top-nav-collapse {
+  background-color: rgb(247, 247, 247); }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgb(245, 247, 250); 
+    }
+   
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+
+  /* persoalizacion del navbar */
+.continer-navbar strong,a{
+    color: rgb(41, 49, 56) !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 768px){
+.navbar {
+    background-color: rgba(238, 239, 241, 0.938); 
+    /* color: blanchedalmond !important; */
+    }
+}
+
+@media (max-width: 850px) and (min-width: 800px){
+
+    .navbar:not(.top-nav-collapse) {
+        background-color: rgba(238, 239, 241, 0.945); 
+    }
+}
+
+
+@media (max-width: 600px) and (min-width: 100px){
+
+    .navbar:not(.top-nav-collapse) {
+        background-color: rgba(238, 239, 241, 0.959);
+    }
+    .navbar{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+.navbar{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.btn-toggle-icon{
+    color: black !important;
+    background-color: teal;
+}
